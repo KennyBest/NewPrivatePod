@@ -19,7 +19,7 @@ open class LogcatViewController: UIViewController {
         
     }
     
-    func setupUI() {
+    open func setupUI() {
         view.backgroundColor = UIColor.magenta
         
         let dismissButton = UIButton(type: .system)
@@ -30,7 +30,7 @@ open class LogcatViewController: UIViewController {
         view.addSubview(dismissButton)
     }
 
-    @objc func dismissSelf() {
+    @objc open func dismissSelf() {
         self.dismiss(animated: true, completion: nil)
     }
     
