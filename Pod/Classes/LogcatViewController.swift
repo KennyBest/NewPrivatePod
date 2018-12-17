@@ -8,9 +8,9 @@
 
 import UIKit
 
-class LogcatViewController: UIViewController {
+open class LogcatViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override open func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -20,9 +20,12 @@ class LogcatViewController: UIViewController {
     }
     
     func setupUI() {
+        view.backgroundColor = UIColor.magenta
+        
         let dismissButton = UIButton(type: .system)
         dismissButton.setTitle("Dismiss", for: .normal)
         dismissButton.center = view.center
+        dismissButton.sizeToFit()
         dismissButton.addTarget(self, action: #selector(dismissSelf), for: .touchUpInside)
         view.addSubview(dismissButton)
     }

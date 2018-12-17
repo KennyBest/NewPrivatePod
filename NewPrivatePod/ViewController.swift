@@ -15,8 +15,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         view.backgroundColor = .cyan
+        
+        let button = UIButton(type: .system)
+        button.setTitle("Present", for: .normal)
+        button.addTarget(self, action: #selector(clickPresentButton), for: .touchUpInside)
+        button.center = view.center
+        button.sizeToFit()
+        view.addSubview(button)
     }
 
 
+    @objc func clickPresentButton() {
+        let vc = LogcatViewController()
+        self.present(vc, animated: true, completion: nil)
+    }
 }
 
