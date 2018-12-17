@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "NewPrivatePod"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "try the flow of private pod"
   s.homepage         = "https://github.com/KennyBest/NewPrivatePod"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Clare" => "xxx@gmail.com" }
-  s.source           = { :git => "https://github.com/KennyBest/NewPrivatePod.git", :tag => 'v0.0.1' }
+  s.source           = { :git => "https://github.com/KennyBest/NewPrivatePod.git", :tag => 'v0.0.2' }
 
   s.swift_version    = "4.2"
 
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/*'
 
-  s.module_name = 'HelloPrivatePod'
+  s.module_name = 'NewPrivatePod'
 end
