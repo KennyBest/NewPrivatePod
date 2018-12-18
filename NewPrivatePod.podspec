@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "NewPrivatePod"
-  s.version          = "0.0.5"
+  s.version          = "0.0.6"
   s.summary          = "try the flow of private pod"
   s.homepage         = "https://github.com/KennyBest/NewPrivatePod"
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { "Clare" => "xxx@gmail.com" }
-  s.source           = { :git => "https://github.com/KennyBest/NewPrivatePod.git", :tag => 'v0.0.5' }
+  s.source           = { :git => "https://github.com/KennyBest/NewPrivatePod.git", :tag => 'v0.0.6' }
 
   s.swift_version    = "4.2"
 
