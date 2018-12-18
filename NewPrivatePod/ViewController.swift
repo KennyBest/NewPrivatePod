@@ -14,6 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        navigationItem.title = "NewPrivatePod"
+        
         view.backgroundColor = .cyan
         
         let button = UIButton(type: .system)
@@ -24,10 +26,16 @@ class ViewController: UIViewController {
         view.addSubview(button)
     }
 
-
     @objc func clickPresentButton() {
         let vc = LogcatViewController()
         self.present(vc, animated: true, completion: nil)
     }
+    
+    @IBAction func gotoScore(_ sender: Any) {
+        let vc = ScoreViewController()
+        vc.userName = "Clare"
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 }
 

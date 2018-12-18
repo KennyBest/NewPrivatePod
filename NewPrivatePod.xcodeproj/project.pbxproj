@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847DD5E621C8DA6E0020797B /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DD5E521C8DA6E0020797B /* ScoreViewController.swift */; };
+		847DD5E821C8DA890020797B /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DD5E721C8DA890020797B /* GiftViewController.swift */; };
 		84D1072721C76A4F00409F01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1072621C76A4F00409F01 /* AppDelegate.swift */; };
 		84D1072921C76A4F00409F01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D1072821C76A4F00409F01 /* ViewController.swift */; };
 		84D1072C21C76A4F00409F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D1072A21C76A4F00409F01 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847DD5E521C8DA6E0020797B /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		847DD5E721C8DA890020797B /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
 		84D1072321C76A4F00409F01 /* NewPrivatePod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPrivatePod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D1072621C76A4F00409F01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84D1072821C76A4F00409F01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				84D1073F21C76DAA00409F01 /* LogcatViewController.swift */,
+				847DD5E521C8DA6E0020797B /* ScoreViewController.swift */,
+				847DD5E721C8DA890020797B /* GiftViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -165,6 +171,8 @@
 				84D1072921C76A4F00409F01 /* ViewController.swift in Sources */,
 				84D1074021C76DAA00409F01 /* LogcatViewController.swift in Sources */,
 				84D1072721C76A4F00409F01 /* AppDelegate.swift in Sources */,
+				847DD5E821C8DA890020797B /* GiftViewController.swift in Sources */,
+				847DD5E621C8DA6E0020797B /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
