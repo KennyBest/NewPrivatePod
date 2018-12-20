@@ -10,6 +10,18 @@ import UIKit
 
 class GiftViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
+        
+        view.addSubview(markLabel)
+        view.addSubview(logoImageView)
+    }
+    
+
     lazy var markLabel: UILabel = {
         let label = UILabel(frame: .zero)
         label.text = "Gift Heaven"
@@ -19,25 +31,12 @@ class GiftViewController: UIViewController {
         return label
     }()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        view.backgroundColor = .white
-        
-        view.addSubview(markLabel)
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    lazy var logoImageView: UIImageView = {
+        let _imageView = UIImageView(frame: .zero)
+        _imageView.image = UIImage(named: "icon_weixin")
+        _imageView.sizeToFit()
+        _imageView.center = CGPoint(x: self.view.center.x, y: self.view.center.y - 170)
+        return _imageView
+    }()
 
 }
